@@ -1,0 +1,160 @@
+@media only screen and (max-width: 1024px) {
+  .home__intro .title p b {
+    font-size: 42px;
+    line-height: 56px;
+  }
+  .home__intro .text span {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .navbar {
+    height: max-content;
+  }
+  .nav__top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: flex-start;
+  }
+  .navbar-toggler {
+    height: max-content;
+    margin-top: 20px;
+  }
+  .info__list ul li img {
+    height: max-content;
+  }
+  .category__title {
+    margin-bottom: 40px;
+  }
+}
+@media only screen and (max-width: 770px) {
+  .services-card-box {
+    margin-bottom: 30px;
+  }
+  .navbar-brand img {
+    width: 230px;
+    margin-right: 0;
+    height: auto;
+  }
+  a.navbar-brand {
+    padding: 0;
+    margin: 0;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+  }
+  .nav__top {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+  }
+  div.home__content {
+    text-align: center;
+  }
+  #home {
+    /* padding-top: 100px;
+        padding-bottom: 70px; */
+    padding: 0;
+  }
+  .home__intro {
+    margin-top: 130px;
+  }
+
+  .service__box {
+    margin-top: 20px;
+  }
+
+  .hire__box h1 {
+    font-family: Inter;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 700;
+    width: 40%;
+    line-height: 30px !important;
+  }
+
+  .hire__box a img {
+    width: 160px;
+  }
+  form {
+    min-width: auto;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  #platform {
+    padding: 10px;
+  }
+
+  .platform__logo {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+  }
+
+  .platform__logo img {
+    margin: 15px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .home__intro .title p b {
+    font-size: 26px !important;
+  }
+  .home__intro .title br {
+    height: 10px !important;
+    display: none;
+  }
+  h1 {
+    font-size: 30px !important;
+  }
+  a.navbar-brand {
+    font-size: 1rem;
+    line-height: inherit;
+    white-space: nowrap;
+  }
+  #service,
+  #blog,
+  #techstack,
+  #hire,
+  #contact {
+    padding: 15px 5px;
+  }
+
+  .techstack__collection {
+    width: 100%;
+  }
+
+  .hire__box h1 {
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    width: 40%;
+    line-height: 19px !important;
+  }
+
+  .hire__box a img {
+    width: 130px;
+  }
+
+  .hire__box {
+    padding: 8px 22px;
+  }
+
+  .platform__logo img {
+    margin: 5px;
+  }
+
+  .blog__title h3 {
+    font-size: 31px;
+    line-height: 42px;
+  }
+
+  .service__box .text p {
+    font-size: 16px;
+    line-height: 131.023%;
+  }
+}

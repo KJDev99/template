@@ -1,0 +1,184 @@
+/* Base Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+.header {
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+.header__top-bar {
+    padding: 10px;
+    text-align: center;
+    background-color: #000;
+}
+
+.header__link {
+    color: #00f;
+    text-decoration: underline;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.header__logo {
+    height: 40px;
+}
+
+.header__menu {
+    flex-grow: 1;
+}
+
+.header__menu-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.header__menu-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header__button {
+    background-color: #00f;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Main */
+.main {
+    padding: 20px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+    padding: 40px;
+}
+
+.hero__content {
+    max-width: 50%;
+}
+
+.hero__title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero__text {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+}
+
+.hero__button {
+    background-color: #00f;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+.hero__image {
+    max-width: 40%;
+}
+
+.awards,
+.staffing,
+.solutions,
+.count-on-us,
+.credentials,
+.cta {
+    margin-bottom: 40px;
+}
+
+.awards__title,
+.staffing__title,
+.solutions__title,
+.count-on-us__title,
+.credentials__title,
+.cta__title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.awards__list,
+.awards__partners,
+.staffing__features,
+.count-on-us__logos,
+.credentials__logos {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.awards__item,
+.staffing__feature,
+.count-on-us__logo,
+.credentials__logo {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.solutions__buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.solutions__button {
+    padding: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.25rem;
+    color: #fff;
+}
+
+.solutions__button--business {
+    background-color: #00f;
+}
+
+.solutions__button--cpa-firms {
+    background-color: #f00;
+}
+
+/* Footer */
+.footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer__locations,
+.footer__social-media,
+.footer__company-info,
+.footer__resources,
+.footer__contact,
+.footer__terms {
+    flex: 1;
+}
+
+.footer__terms-link {
+    color: #00f;
+    text-decoration: underline;
+    display: block;
+}
